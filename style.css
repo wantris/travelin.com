@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    background-image: url(https://asset.kompas.com/crops/90XbQ00RbbvvcKG3mQl2KJHsFNs=/0x0:1280x853/750x500/data/photo/2020/05/09/5eb6b04a2c063.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: rgba(42, 3, 180, 0.589);
+    height: 50px;
+    width: 100%;
+    text-align: center;
+}
+
+.header-left {
+    line-height: 50px;
+}
+
+.logo {
+    padding-left: 10px;
+    margin-top: 5px;
+    float: left;
+    font-size: 30px;
+    color: rgba(94, 245, 212, 0.788);
+}
+
+span {
+    font-size: 25px;
+    color: rgba(41, 250, 205, 0.712);
+}
+
+.top-wrapper {
+    position: inline-block;
+    padding: 90px 0 120px 0;
+    text-align: center;
+    z-index: 0;
+    text-shadow: 1px 0.75px 0.5px black;
+}
+
+.top-wrapper h1 {
+    opacity: 0.9;
+    font-size: 30px;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+    color: rgb(113, 77, 245);
+    font-weight: bold;
+}
+
+.top-wrapper p {
+    opacity: 0.8;
+    margin-bottom: 3px;
+    margin-top: 5px;
+    padding: 0 15px;
+    color: rgb(143, 177, 250);
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+.btn-wrapper {
+    margin: 20px 0;
+}
+
+.login {
+    background-color: #239b76;
+    margin-right: 5px;
+}
+
+.signup {
+    background-color: rgba(0, 151, 118, 0.582);
+}
+
+.btn {
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+}
+
+.btn:hover {
+    opacity: 1;
+}
