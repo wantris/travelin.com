@@ -1,9 +1,16 @@
 body {
     margin: 0;
+    padding: 0;
+    height: 100%;
     background-image: url(https://asset.kompas.com/crops/90XbQ00RbbvvcKG3mQl2KJHsFNs=/0x0:1280x853/750x500/data/photo/2020/05/09/5eb6b04a2c063.jpeg);
     background-size: cover;
+    background-attachment: fixed;
     background-repeat: no-repeat;
-    background-position: top center;
+    background-position: center;
+}
+
+.utama {
+    position: relative;
 }
 
 .container {
@@ -41,6 +48,7 @@ span {
     text-align: center;
     z-index: 0;
     text-shadow: 1px 0.75px 0.5px black;
+    padding-bottom: 70px;
 }
 
 .top-wrapper h1 {
@@ -77,12 +85,68 @@ span {
 
 .btn {
     padding: 12px 24px;
+    cursor: pointer;
+    outline: none;
+    border: none;
     color: white;
+    background-color: #3ba343;
     display: inline-block;
     opacity: 0.8;
     border-radius: 4px;
+    box-shadow: 4px 4px 2px #535353;
 }
 
 .btn:hover {
-    opacity: 1;
+    background-color: #359138;
+}
+
+.btn:active {
+    background-color: #359138;
+    box-shadow: 2px 2px 1px #1b1b1b;
+    transform: translateY(2px);
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 130px;
+    background-color: rgba(32, 0, 148, 0.993);
+}
+
+#footer-span {
+    font-size: 15px;
+    color: rgba(41, 250, 205, 0.712);
+}
+
+.footer-logo {
+    padding-left: 10px;
+    margin-top: 10px;
+    float: left;
+    font-size: 20px;
+    color: rgba(94, 245, 212, 0.788);
+}
+
+.footer-list {
+    float: right;
+    padding-right: 20px;
+}
+
+.footer-list li {
+    padding-bottom: 1px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: blanchedalmond;
+    text-shadow: 0px 2px #535353;
+}
+
+a:active {
+    text-shadow: 0px 1px #1b1b1b;
+    transform: translateY(2px);
 }
