@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>A13</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -18,22 +18,58 @@
     </header>
 
     <div class="top-wrapper">
-        <div class="container">
+        <div class="container" id="jumbotron">
             <h1>Welcome Travelers,</h1>
             <h1>Mari Memulai Petualangan Baru Anda Disini!!</h1>
-            <p>Travelin.com adalah platform online untuk pemesanan khusus traveling.</p>
-            <p>Kami menawarkan tiket hotel, bus dan tempat traveling dengan harga yang sesuai dengan dompet anda.</p>
             <div class="btn-wrapper">
                 <a href="log-in.html" class="btn login">login</a>
                 <a href="#" class="btn signup">Daftar</a>
             </div>
         </div>
-
     </div>
+
+    <main>
+        <!-- Carousel-->
+        <div class="carousel">
+            <div class="slideshow-container">
+
+                <div class="mySlides fade">
+                  <div class="numbertext">1 / 3</div>
+                  <img src="http://www.txtravel.com/assets/promo-banner/x54d78dbfbf573836f0cd5989df3f4e43WEB,P20BANNER,P20LADDA.jpg.pagespeed.ic.bFPrq0QPV8.webp" style="width:100%">
+                  
+                </div>
+                
+                <div class="mySlides fade">
+                  <div class="numbertext">2 / 3</div>
+                  <img src="http://www.txtravel.com/assets/promo-banner/xd1989b7c446a55a0cb6348a9d5c5f9c9WEB,P20BANNER,P20TX.jpg.pagespeed.ic.hfjVZYgQ6-.webp" style="width:100%">
+                  
+                </div>
+                
+                <div class="mySlides fade">
+                  <div class="numbertext">3 / 3</div>
+                  <img src="http://www.txtravel.com/assets/promo-banner/x7646b204ef6c30f15050ca4040cadfbbBANNER,P20TUKERY.jpg.pagespeed.ic.3N14CxD380.webp" style="width:100%">
+                 
+                </div>
+                
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                
+                </div>
+                <br>
+                
+                <div style="text-align:center">
+                  <span class="dot" onclick="currentSlide(1)"></span> 
+                  <span class="dot" onclick="currentSlide(2)"></span> 
+                  <span class="dot" onclick="currentSlide(3)"></span> 
+                </div>
+        </div>
+    </main>
 
     <footer>
 
     </footer>
+
+    <script src="style.js"></script>
 </body>
 
 </html>
